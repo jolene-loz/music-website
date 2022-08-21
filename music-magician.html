@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <!-- <a class="site-logo" href="index.html"><img src="" alt="Homepage"></a> -->
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+                <li><a href="index.html#about" title="about">About</a></li>
+                <li><a href="index.html#works" title="works">Works</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero" style="background-image:url(images/music.jpg)">
+
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    <div class="page-header__info">
+                        <div class="page-header__cat">
+                        </div>
+                    </div>
+                    <h1 class="page-header__title">
+                        <a href="#0" title="">
+                            The Music Magician Project
+                        </a>
+                    </h1>
+                    <ul class="page-header__meta">
+                        <li class="date">2020</li>
+                        <li class="author">
+                            By
+                            <span>Jolene Lozano</span>
+                        </li>
+                    </ul>
+
+                </article>
+            </div>
+
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+
+              <p style="text-align:center;"><img src="images/music-magician-horizontal.png" alt="Logo"></p>
+
+                <h1>The Music Magician Project</h1>
+                <h2>A little intro</h2>
+<p>The Music Magician Project is a project I was so unbelievably excited to create. And as said - one of my absolute favorites I’ve ever done, especially as this is a project I’d love to use myself as a musician too 😋</p>
+<p>The Music Magician Project is a multi-dimensional system that allows the user to manipulate their voice in real time through a mid-air gestural recognition device. This is called the Magician’s Box. To demonstrate the impact of their gestures and to add an exciting visual element to a music performance, visuals are created through a motion tracking system which also includes music reactive elements. This is called the Magician’s Cape.</p>
+<p>As vocal performers strive to find new and exciting ways to express themselves, the Music Magician is aimed to introduce a solution for vocal performers: one that helps them create unique and exciting ways of expression and allows them to stand out in the crowd by breaking out of traditional performances on both an audio and visual level. </p>
+<p> In the demo below, I will show the different types of effects the user can use to manipulate their voice through the Magician’s Box and how their gesture movements will be used to create the background visuals for a performance in the Magician’s Cape. Arrows will indicate how mid-air gesture movements can control the type of effect, trigger when the effect starts or stops, and how intense the effect is .  For now, we will be demonstrating the background visuals from the Magicians’ cape in the lower right hand corner. Green/red colors associate with lower volumes, yellow/blue associate with medium volumes, and bursts of colors/multiple colors indicate high and intense volumes. In the future, the cape would be displayed using a projection or screen behind the musician. </p>
+<p> (Please enjoy me saying "hello" and singing "oh" many times to demo) </p>
+
+<h2>Visuals: Motion Tracking Part Only</h2>
+<iframe src="https://drive.google.com/file/d/1bEFojuq2LOAN00WZEq6EfDE_-3Gja1Z5/preview" width="640" height="480"></iframe>
+
+<h2>Full System</h2>
+<iframe src="https://drive.google.com/file/d/1I31du0tQGrQpK8bUIOC_fACe9hfY2kMm/preview" width="640" height="480"></iframe>
+
+<h2>My quick performance demo</h2>
+<p>Went a little extra here because I felt like throwing in the piano 😝</p>
+<iframe src="https://drive.google.com/file/d/1BXU0p6icQRirrl35GdqggzHGBqeK7uFP/preview" width="640" height="480"></iframe>
+
+
+<h2>Technical Implementation</h2>
+<h4>The Magician's Box</h4>
+<p>The Magician’s Box is made up of  3 Ultrasonic sensors, 1 Gesture sensor, jumper cables, a breadboard, and an arduino which is encased in a 3D printed design created on Autodesk’s Fusion 360 CAD software with Pure PLA material. Code written in C is downloaded onto the arduino MKR1000 board and data from the sensors is sent back to the arduino platform. This data is then transferred to Max/MSP which is a software that provides a structure of generative structures for creating malleable vocals, through serial communication. Each sensor is assigned to a specific number and to a specific effect. Based on whichever sensor is triggered and if the sensor senses movement, it will be mapped to either the reverb effect, the phone filter effect, or one of the low, high, and multi harmonies. MSP, Max Signal Processing, implements a specific unit generator, which is required to build synthesis and signal processing algorithms that allow for real time vocal manipulation to take place.</p>
+<h4>The Magician's Cape</h4>
+<p>In the Magician’s Cape, all we need is a computer camera that will track the motions of the user. A computer vision package in Max/MSP is used to create the motion tracking visual effects. This allows for the user's gestures and movements to be emphasized into an artistic visual form. Additionally, there are music reactive influences to the motion tracking visuals. Based on the volume levels of the song, the motion tracking visual effects will change, as specified previously.. Max/MSP converts the volume levels of the singer’s vocals into data and associates the louder tones with more colors. Ideally, the cape would be a motion tracking visual system projected behind the artist during their performance. In the future, we hope to test this out using either a screen or projector to demonstrate the whole system. </p>
+
+<h5>
+    You can read more about my design process and implementation here down below in our final paper 🙂. Would definitely love to extend this project to become bigger in the future. 
+    </h5>
+
+<h3>With the Music Magician, the musician can deliver magic into performances. 🎩💫   
+</h3>
+
+<iframe src="https://drive.google.com/file/d/1VFDZQPRIJTrmN4NyMvGw5yAM15aWWx0H/preview" width="640" height="480"></iframe>
+
+</article>
+
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+            <div class="row">
+                <div class="col-full">
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+
+                <div class="col-twelve">
+                    <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- end footer-bottom -->
+
+        </footer> <!-- end footer -->
+
+
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+
+
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>

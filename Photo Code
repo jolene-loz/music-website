@@ -1,0 +1,251 @@
+<div class="row masonry-wrap">
+    <div class="masonry">
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/kids.jpg" class="thumb-link" title="Computer Training Project" data-size="1050x700">
+                        <img src="images/kids.jpg"
+                             srcset="images/kids.jpg 1x, images/kids.jpg 2x" alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Computer Training Project
+                    </h3>
+                    <p class="item-folio__cat">
+                        Retreat, South Africa
+                    </p>
+                </div>
+
+
+                <div class="item-folio__caption">
+                    <p> During the summer of 2018, I was warded a scholarship to teach basic computer training in a computer center and motivate interest in technology for primary school students in South Africa. During my time there, I ontributed to structuring interpersonal lesson plans tailored to each student’s computer and technological literacy. It was such a wonderfully rewarding experience, and I hope to visit again some time in the future. Learn more about my trip down below! </p>
+</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                        <img src="images/portfolio/lighthouse.jpg"
+                             srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        tunePin (Coming Soon)
+                    </h3>
+                    <p class="item-folio__cat">
+                        iOS App
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>My project for my Swift/iOS Programming Class coming soon! As someone who is obsessed with finding new music and new artists to come out and see, the goal of the app is to help promote local artists!</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/wunderite-rice.png" class="thumb-link" data-size="2000x1000">
+                        <img src="images/wunderite-rice.png"
+                             srcset="images/wunderite-rice.png, images/wunderite-rice.png " alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Semi-Finalist at the Rice Business Plan Competition
+                    </h3>
+                    <p class="item-folio__cat">
+                           Wunderite
+                    </p>
+                </div>
+
+                <span class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/woodcraft.jpg"
+                             srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        UNICEF Color Run
+                    </h3>
+                    <p class="item-folio__cat">
+                        Montgomery High School
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <span class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/skaterboy.jpg"
+                             srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Respect - Aretha Franklin Cover (Coming soon)
+                    </h3>
+                    <p class="item-folio__cat">
+                        With the Bostonians of Boston College
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <span class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/hiking.jpg" class="thumb-link" data-size="200x300">
+                      <img src="images/hiking.jpg"
+                           srcset="images/hiking.jpg 1x, images/hiking.jpg" alt="">
+                      <span class="shadow-overlay"></span>
+                  </a>
+              </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Hiking!
+                    </h3>
+                    <p class="item-folio__cat">
+                        Table Mountain, South Africa
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <span class="item-folio__caption">
+                    <p>Climbed to the top of Table Mountain in South Africa during my visit in June. One of the most beautiful sunsets I've ever seen!</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/guimaras.jpg" class="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/guimaras.jpg"
+                             srcset="images/portfolio/guimaras.jpg 1x, images/portfolio/@2x.jpg 2x" alt="">
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Boating
+                    </h3>
+                    <p class="item-folio__cat">
+                      Guimaras Island, Philippines
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <span class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+            <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/odesza-mp4-1.mov" class="thumb-link" data-size="1050x700">
+                        <embed src="example.mpeg" autostart="false" height="30" width="144" />
+                        <span class="shadow-overlay"></span>
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Panorama NYC
+                    </h3>
+                    <p class="item-folio__cat">
+                        Music Technology
+                    </p>
+                </div>
+
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                    <i class="im im-link"></i>
+                </a>
+
+                <span class="item-folio__caption">
+                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+
+            </div> <!-- end item-folio -->
+        </div> <!-- end masonry__brick -->
+
+    </div>
+</div> <!-- end masonry -->
+
+</section> <!-- end works -->
+
+
+Code for photo thing
