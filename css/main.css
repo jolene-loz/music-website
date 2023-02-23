@@ -2208,8 +2208,8 @@ html.no-csstransitions .home-content__main {
 
 .s-about {
     padding-top: 15rem;
-    padding-bottom: 9rem;
-    background-color: #FFFFFF;
+    padding-bottom: 15.6rem;
+    background-color: #fddced;
     position: relative;
 }
 
@@ -2364,7 +2364,7 @@ html.no-csstransitions .home-content__main {
 .s-works {
     padding-top: 15rem;
     padding-bottom: 15.6rem;
-    background-color: #f1f1f1;
+    background: linear-gradient(180deg, #fddced, #f6cd7d);
     position: relative;
 }
 
@@ -2870,7 +2870,7 @@ html.no-csstransitions .home-content__main {
 .s-blog {
     padding-top: 15rem;
     padding-bottom: 9.6rem;
-    background-color: #FFFFFF;
+    background: linear-gradient(180deg,#f6cd7d, #f5a560);
     position: relative;
 }
 
